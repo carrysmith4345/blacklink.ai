@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tattoo Generator Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <h1>Tattoo Generator</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#customize">Customize</a></li>
+    </ul>
+  </nav>
+
+  <!-- Canvas Section for Design Tool -->
+  <section id="canvas-section">
+    <h2>Create Your Tattoo</h2>
+    <div id="canvas-container">
+      <canvas id="tattooCanvas" width="500" height="500"></canvas>
+    </div>
+    <button onclick="generateTattoo()">Generate Tattoo</button>
+  </section>
+
+  <!-- Gallery Section for Tattoo Ideas -->
+  <section id="gallery">
+    <h2>Inspiration Gallery</h2>
+    <div class="gallery-container">
+      <!-- Placeholder for images, can be added dynamically -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
