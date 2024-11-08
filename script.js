@@ -1,4 +1,11 @@
-// script.js
+ <!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>tattoo generator</title>
+</head>
+<body>
+<script>
+
 
 function generateTattoo() {
   alert("Tattoo generation coming soon!");
@@ -41,3 +48,6 @@ function draw(event) {
   ctx.beginPath();
   ctx.moveTo(x, y);
 }
+</script>
+</body>
+</html>
